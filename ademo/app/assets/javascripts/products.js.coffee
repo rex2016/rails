@@ -3,4 +3,5 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 jQuery ->
   $('#products').dataTable
+   sPaginationType: "full_numbers"
    bJQueryUI: true
